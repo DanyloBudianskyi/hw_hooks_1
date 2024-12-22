@@ -15,7 +15,7 @@ namespace Injector
 
             string channelName = null;
 
-            RemoteHooking.IpcCreateServer<SleepHook.ServerInterface>(
+            RemoteHooking.IpcCreateServer<Dll_hook.ServerInterface>(
                 ref channelName,
                 System.Runtime.Remoting.WellKnownObjectMode.Singleton);
 

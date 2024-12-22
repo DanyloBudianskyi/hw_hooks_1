@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using EasyHook;
 
-namespace SleepHook
+namespace Dll_hook
 {
     public class Hook : IEntryPoint
     {
@@ -14,7 +14,7 @@ namespace SleepHook
 
         public static void HookedSleep(int dwMilliseconds)
         {
-            Console.WriteLine($"[Hooked] Sleep called with {dwMilliseconds} ms, modified to 100 ms.");
+            Console.WriteLine($"Sleep called with {dwMilliseconds} ms");
             _originalSleep(100);
         }
 

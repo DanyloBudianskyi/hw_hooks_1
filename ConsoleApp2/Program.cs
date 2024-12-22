@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Target
+namespace App
 {
     class Program
     {
