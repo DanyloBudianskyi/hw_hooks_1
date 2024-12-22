@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll_hook", "Dll_hook\Dll_hook.csproj", "{D25E47AE-60F9-4CB7-AEC1-C49BE7711575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Injector", "ConsoleApp1\Injector.csproj", "{01D9CEF6-504B-4D60-AC3E-5369A7BC2FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "ConsoleApp2\App.csproj", "{D948B0AE-CC65-4BAA-991A-D2572C885B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25E47AE-60F9-4CB7-AEC1-C49BE7711575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25E47AE-60F9-4CB7-AEC1-C49BE7711575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25E47AE-60F9-4CB7-AEC1-C49BE7711575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25E47AE-60F9-4CB7-AEC1-C49BE7711575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D9CEF6-504B-4D60-AC3E-5369A7BC2FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D9CEF6-504B-4D60-AC3E-5369A7BC2FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D9CEF6-504B-4D60-AC3E-5369A7BC2FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D9CEF6-504B-4D60-AC3E-5369A7BC2FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D948B0AE-CC65-4BAA-991A-D2572C885B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D948B0AE-CC65-4BAA-991A-D2572C885B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D948B0AE-CC65-4BAA-991A-D2572C885B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D948B0AE-CC65-4BAA-991A-D2572C885B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79C77689-447B-4652-9B89-E0A28288FFB9}
+	EndGlobalSection
+EndGlobal
